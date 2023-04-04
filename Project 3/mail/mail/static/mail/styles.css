@@ -1,0 +1,66 @@
+textarea {
+    min-height: 400px;
+}
+
+.mailbox {
+    border: 1px solid rgba(207, 187, 187, 0.517);
+    padding: 3px;
+    height: 30px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.mailbox:hover{
+    border: 1px solid #007bff;
+    cursor: pointer;
+}
+
+.mailbox_header {
+    width: 30%;
+    overflow-x: scroll;
+    float: left;
+    color: black;
+}
+
+.mailbox_header::-webkit-scrollbar {
+    display: none;
+}
+
+.mailbox_subject {
+    width: 40%;
+    overflow-x: scroll;
+    margin-left:2%;
+    float: left;
+    color: #007bff; 
+}
+
+.mailbox_subject::-webkit-scrollbar {
+    display: none;
+}
+
+.mailbox_time {
+    width: 20%;
+    float: right;
+    margin-left: 2%;
+    color: grey;
+    font-weight: lighter;
+}
+
+#container-head {
+    float: left;
+    font-weight: bold;
+}
+
+#archive {
+    float: left;
+    margin-left: 5px;
+}
+
+#unarchive {
+    float: left;
+    margin-left: 5px;
+}
+
+#reply {
+    float:left;
+}
